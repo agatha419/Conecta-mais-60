@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conecta 60+ — Tutoriais</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Conecta 60+</h1>
+  <div class="tools" role="group" aria-label="Tamanho da letra do aplicativo">
+    <button id="fontDown" aria-label="Diminuir letras">A−</button>
+    <button id="fontUp" aria-label="Aumentar letras">A+</button>
+  </div>
+</header>
+<main>
+  <section id="home" class="screen">
+    <h2>O que você quer aprender hoje?</h2>
+    <label for="tutorialSearch">Pesquisar tutoriais</label>
+    <input id="tutorialSearch" type="search" placeholder="Ex.: Wi-Fi, fotos, golpes" autocomplete="off">
+    <div id="tutorialCards" class="tutorial-grid" aria-live="polite"></div>
+    <p id="noTutorials" class="notice" hidden>Nenhum tutorial encontrado. Tente outra palavra.</p>
+  </section>
+
+  <section id="device" class="screen" hidden>
+    <h2>Qual é o seu celular?</h2>
+    <p>Toque na marca do seu celular.</p>
+    <div class="grid" id="brands"></div>
+    <div id="osBox" hidden>
+      <p>Qual é o sistema do celular?</p>
+      <div class="grid" id="oses"></div>
+      <p class="hint">Não sabe? Escolha Android: quase todos os celulares, exceto o iPhone, usam Android.</p>
+    </div>
+    <label>Modelo (se souber — opcional) <input id="model" placeholder="Ex.: Galaxy A14"></label>
+    <label>Versão do sistema (se souber — opcional) <input id="version" placeholder="Ex.: Android 13"></label>
+    <div class="nav"><button class="big" data-go="home">⬅ Voltar</button><button class="big primary" id="toMatch" disabled>Continuar ➡</button></div>
+  </section>
+
+  <section id="match" class="screen" hidden>
+    <h2>Encontramos este tutorial</h2>
+    <div id="notice" class="notice" role="status"></div>
+    <p id="summary"></p>
+    <div class="nav"><button class="big" data-go="device">✏️ Mudar dados do celular</button><button class="big primary" id="begin">Começar ➡</button></div>
+  </section>
+
+  <section id="step" class="screen" hidden>
+    <p id="progress" class="hint"></p>
+    <h2 id="stepTitle"></h2>
+    <p id="stepText" class="steptext"></p>
+    <figure><div id="art"></div><figcaption id="cap"></figcaption></figure>
+    <p id="voiceMsg" class="notice" hidden>Seu aparelho não consegue ler em voz alta. Não tem problema: leia as instruções escritas, no seu tempo.</p>
+    <div class="audio" role="group" aria-label="Áudio">
+      <button class="big" id="listen">🔊 Ouvir instrução</button>
+      <button class="big" id="repeat">🔁 Repetir áudio</button>
+      <button class="big" id="pause">⏸ Pausar</button>
+      <button class="big" id="audioToggle">🔈 Áudio: ligado</button>
+    </div>
+    <div id="helpBox" class="notice" hidden></div>
+    <div class="audio">
+      <button class="big" id="notFound">🔎 Não encontrei essa opção</button>
+      <button class="big" id="help">🙋 Preciso de ajuda</button>
+    </div>
+    <div class="nav"><button class="big" id="back">⬅ Voltar</button><button class="big primary" id="next">Próxima etapa ➡</button></div>
+  </section>
+
+  <section id="done" class="screen" hidden>
+    <h2>🎉 Parabéns!</h2>
+    <p class="steptext">Você concluiu este tutorial. Se quiser, pode praticar novamente até se sentir seguro.</p>
+    <div class="nav"><button class="big" id="again">🔁 Praticar de novo</button><button class="big primary" data-go="home">Escolher outro tutorial</button></div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

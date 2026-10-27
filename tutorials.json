@@ -1,0 +1,130 @@
+[
+ {
+  "id": "fonte-samsung",
+  "task": "fonte",
+  "title": "Aumentar o tamanho das letras",
+  "description": "Letras maiores no Samsung.",
+  "brand": "Samsung",
+  "os": "android",
+  "model": null,
+  "version": null,
+  "compat": "parcial",
+  "reviewed": "2026-10-27",
+  "steps": [
+   {
+    "title": "Abra as configurações",
+    "text": "Procure o aplicativo Configurações no seu celular. Ele geralmente tem o desenho de uma engrenagem. Toque nele quando encontrar.",
+    "audio": "Procure o aplicativo Configurações no seu celular. Ele geralmente tem o desenho de uma engrenagem. Toque nele quando encontrar.",
+    "image": "icone"
+   },
+   {
+    "title": "Procure a opção Tela",
+    "text": "Em muitos Samsung, a opção se chama Tela. Em alguns, aparece como Visor. Toque nela.",
+    "audio": "Em muitos Samsung, a opção se chama Tela. Em alguns, aparece como Visor. Toque nela.",
+    "image": "menu"
+   },
+   {
+    "title": "Ajuste o tamanho da letra",
+    "text": "Procure Tamanho e estilo da fonte. Aumente um pouco o tamanho e veja se ficou mais fácil de ler.",
+    "audio": "Procure Tamanho e estilo da fonte. Aumente um pouco o tamanho e veja se ficou mais fácil de ler.",
+    "image": "controle"
+   }
+  ]
+ },
+ {
+  "id": "fonte-iphone",
+  "task": "fonte",
+  "title": "Aumentar o tamanho das letras",
+  "description": "Letras maiores no iPhone.",
+  "brand": "Apple",
+  "os": "ios",
+  "model": null,
+  "version": null,
+  "compat": "especifica",
+  "reviewed": "2026-10-27",
+  "steps": [
+   {
+    "title": "Abra os ajustes",
+    "text": "Procure o aplicativo Ajustes no seu iPhone. Ele tem o desenho de uma engrenagem cinza. Toque nele quando encontrar.",
+    "audio": "Procure o aplicativo Ajustes no seu iPhone. Ele tem o desenho de uma engrenagem cinza. Toque nele quando encontrar.",
+    "image": "icone"
+   },
+   {
+    "title": "Procure Tela e Brilho",
+    "text": "Agora, procure uma opção chamada Tela e Brilho. Toque nela.",
+    "audio": "Agora, procure uma opção chamada Tela e Brilho. Toque nela.",
+    "image": "menu"
+   },
+   {
+    "title": "Ajuste o tamanho da letra",
+    "text": "Toque em Tamanho do Texto. Arraste o controle para a direita para aumentar as letras e veja se ficou mais fácil de ler.",
+    "audio": "Toque em Tamanho do Texto. Arraste o controle para a direita para aumentar as letras e veja se ficou mais fácil de ler.",
+    "image": "controle"
+   }
+  ]
+ },
+ {
+  "id": "fonte-android-generico",
+  "task": "fonte",
+  "title": "Aumentar o tamanho das letras",
+  "description": "Passos gerais para Android.",
+  "brand": "*",
+  "os": "android",
+  "model": null,
+  "version": null,
+  "compat": "generica",
+  "reviewed": "2026-10-27",
+  "steps": [
+   {
+    "title": "Abra as configurações",
+    "text": "Procure o aplicativo Configurações no seu celular. Ele geralmente tem o desenho de uma engrenagem. Toque nele quando encontrar.",
+    "audio": "Procure o aplicativo Configurações no seu celular. Ele geralmente tem o desenho de uma engrenagem. Toque nele quando encontrar.",
+    "image": "icone"
+   },
+   {
+    "title": "Procure a opção de tela",
+    "text": "Agora, procure uma opção chamada Tela, Visor ou algo parecido. O nome pode mudar dependendo do celular.",
+    "audio": "Agora, procure uma opção chamada Tela, Visor ou algo parecido. O nome pode mudar dependendo do celular.",
+    "image": "menu"
+   },
+   {
+    "title": "Ajuste o tamanho da letra",
+    "text": "Procure Tamanho da fonte ou Tamanho do texto. Aumente um pouco o tamanho e veja se ficou mais fácil de ler.",
+    "audio": "Procure Tamanho da fonte ou Tamanho do texto. Aumente um pouco o tamanho e veja se ficou mais fácil de ler.",
+    "image": "controle"
+   }
+  ]
+ },
+ {
+  "id": "fonte-ios-generico",
+  "task": "fonte",
+  "title": "Aumentar o tamanho das letras",
+  "description": "Passos gerais para iPhone.",
+  "brand": "*",
+  "os": "ios",
+  "model": null,
+  "version": null,
+  "compat": "generica",
+  "reviewed": "2026-10-27",
+  "steps": [
+   {
+    "title": "Abra as configurações",
+    "text": "Procure o aplicativo Configurações no seu celular. Ele geralmente tem o desenho de uma engrenagem. Toque nele quando encontrar.",
+    "audio": "Procure o aplicativo Configurações no seu celular. Ele geralmente tem o desenho de uma engrenagem. Toque nele quando encontrar.",
+    "image": "icone"
+   },
+   {
+    "title": "Procure a opção de tela",
+    "text": "Agora, procure uma opção chamada Tela e Brilho ou algo parecido. O nome pode mudar dependendo da versão.",
+    "audio": "Agora, procure uma opção chamada Tela e Brilho ou algo parecido. O nome pode mudar dependendo da versão.",
+    "image": "menu"
+   },
+   {
+    "title": "Ajuste o tamanho da letra",
+    "text": "Procure Tamanho do Texto. Aumente um pouco o tamanho e veja se ficou mais fácil de ler.",
+    "audio": "Procure Tamanho do Texto. Aumente um pouco o tamanho e veja se ficou mais fácil de ler.",
+    "image": "controle"
+   }
+  ]
+ }
+]
